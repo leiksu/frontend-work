@@ -1,0 +1,1 @@
+Requirejs, knockout, QUnit, less, jQuery are utilized to implement this javascript project. 
