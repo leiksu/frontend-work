@@ -1,0 +1,27 @@
+@font-face: Helvetica, Arial, Sans-Serif;
+@font-size: 15px;
+@font-color: #494949;
+@link-color: #DF3701;
+@link-hover: underline;
+
+body {
+  font: @font-size @font-face;
+  color: @font-color; 
+}
+
+
+a {
+  color: @link-color;
+  &:hover {
+    text-decoration: @link-hover;
+  }
+  cursor: pointer;
+}
+
+.counter {
+  top: 0px;
+  right: 10px;
+  position: fixed;  
+}
+ 
+ 
