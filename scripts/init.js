@@ -13,6 +13,8 @@ require(["knockout", "jquery", "appViewModel", "customHandlers", "domReady!"], f
 		vm.add({ name: ko.observable($("#name").val()) });
 	});
 
+	if(true) console.log('leiksu');
+
 	ko.applyBindings(vm);
 });
 

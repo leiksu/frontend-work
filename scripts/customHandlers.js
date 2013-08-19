@@ -7,7 +7,7 @@ define(["knockout", "jquery"], function (ko, $) {
             $(element).find(".editRow").hide().end().find(".detailRow").show();
             
             $(element).find(".editBtn").on("click", function () {
-            	oriName = valueAccessor().name();
+				oriName = valueAccessor().name();
                 $(element).find(".editRow, .detailRow").toggle();
             });
             
@@ -16,7 +16,7 @@ define(["knockout", "jquery"], function (ko, $) {
             });
             
             $(element).find(".cancelBtn").on("click", function () {
-            	valueAccessor().name(oriName);
+				valueAccessor().name(oriName);
                 $(element).find(".editRow, .detailRow").toggle();
             });
         },
